@@ -1,18 +1,9 @@
-# React + Vite
+Apresentação do Desafio Técnico – MUDE!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Para o desafio técnico, desenvolvi um site simples em React, composto por uma página inicial, uma página de cadastro de usuário e uma página de erro, para casos em que o usuário acaba acessando um endereço não encontrado.
 
-Currently, two official plugins are available:
+A aplicação é bastante direta: na página de cadastro, o usuário informa nome, e-mail, idade e país de residência. Após o preenchimento, os dados são enviados e uma API pública é utilizada para trazer informações adicionais sobre o país inserido.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Devido ao tempo disponível, optei por manter o escopo mais enxuto. Comecei pesquisando possíveis APIs para integrar e avaliando o tempo necessário para o desenvolvimento. Em seguida, estruturei a lógica de navegação e, depois, foquei na integração com a API, por ser a parte mais prática do desafio. Com a API integrada, concentrei-me na lógica da aplicação e finalizei com a estilização e a responsividade.
 
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Com mais tempo, gostaria de implementar um sistema de busca de países independente do cadastro do usuário, uma página funcional de login e registro, uma área de perfil para o usuário, o uso de localStorage para persistência dos dados durante a navegação, além de aprimorar a estilização com técnicas visuais mais refinadas.
